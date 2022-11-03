@@ -1,11 +1,11 @@
-    let num=13;
-    let counter=0;
-    for(let i=0; i>num; i--){
-        if(num%i==0){
-        counter++;
+    let number=13;
+    let facator=0;
+    for(let i=1; i<=number; i++){
+        if(number%i==0){
+        facator++;
         }
     }
-    if(counter==2){
+    if(facator==2){
         console.log("Yes");
     }
     else{
